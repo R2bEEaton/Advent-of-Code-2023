@@ -6,5 +6,4 @@ import time
 
 din = data_in(split=True, numbers=False)
 
-
-#submit(ans)
+# submit(ans)
