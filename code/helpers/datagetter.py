@@ -11,7 +11,7 @@ def data_in(split=True, numbers=False, n_type=int):
         data = open("testdata1.txt").read()
     else:
         import aocd
-        with open("sess") as f:
+        with open("helpers/sess") as f:
             sess = f.readline()
         data = aocd.get_data(session=sess)
         with open("aoc.txt", "w+") as f:
