@@ -7,7 +7,7 @@ Solutions will be slightly refactored for readability before submission. In othe
 + Refactor to remove unused code
 - No logic changes allowed
 - No fixing the stupid or unnecessary checks I wrote
-+ Code must produce working solutions
++ Code must produce valid solutions
 ```
 
 I'm going for speed. This repository is not an example of good code. It won't be pretty.
