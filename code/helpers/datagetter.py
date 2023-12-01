@@ -4,12 +4,13 @@ from collections import defaultdict
 
 
 def data_in(split=True, numbers=False, n_type=int):
-    print("...")
+    print("| CTRL Ex  |  SHFT R |")
     key = keyboard.read_key()
     data_ver = "Real"
 
     if key == 'ctrl':
         data = open("testdata1.txt").read()
+        data_ver = "Test"
     else:
         import aocd
         with open("helpers/sess") as f:
@@ -17,7 +18,6 @@ def data_in(split=True, numbers=False, n_type=int):
         data = aocd.get_data(session=sess)
         with open("aoc.txt", "w+") as f:
             f.write(data)
-        data_ver = "Test"
 
     # Parse
     if split:
@@ -28,7 +28,7 @@ def data_in(split=True, numbers=False, n_type=int):
             out.append(get_numbers(line, n_type))
         data = out
 
-    print("%s Data loaded." % data_ver)
+    print("| %s Data loaded.  |\n|====================|" % data_ver)
     return data
 
 

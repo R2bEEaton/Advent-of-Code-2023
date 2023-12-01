@@ -14,6 +14,6 @@ I'm going for speed. This repository is not an example of good code. It won't be
 
 ## Times and Tiny Comments
 
-| Title   | Part 1  | Part 2  | Total   | Comment |
-|---------|---------|---------|---------|---------|
-| Unknown | Unknown | Unknown | Unknown | Unknown |
+| Title                     | Part 1 | Part 2 | Total | Comment                   |
+|---------------------------|--------|--------|-------|---------------------------|
+| [Trebuchet?!](notes/1.md) | 5:04   | 13:27  | 18:31 | Trebuchould have known... |
