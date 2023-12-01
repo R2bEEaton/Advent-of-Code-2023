@@ -34,7 +34,7 @@ def data_in(split=True, numbers=False, n_type=int):
 
 def submit(ans):
     import aocd
-    with open("sess") as f:
+    with open("helpers/sess") as f:
         sess = f.readline()
     aocd.submit(answer=ans, session=sess)
 
