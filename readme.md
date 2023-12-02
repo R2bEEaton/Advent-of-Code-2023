@@ -14,6 +14,7 @@ I'm going for speed. This repository is not an example of good code. It won't be
 
 ## Times and Tiny Comments
 
-| Title                     | Part 1 | Part 2 | Total | Comment                   |
-|---------------------------|--------|--------|-------|---------------------------|
-| [Trebuchet?!](notes/1.md) | 5:04   | 13:27  | 18:31 | Trebuchould have known... |
+| Title                        | Part 1 | Part 2 | Total | Comment                   |
+|------------------------------|--------|--------|-------|---------------------------|
+| [Trebuchet?!](notes/1.md)    | 5:04   | 13:27  | 18:31 | Trebuchould have known... |
+| [Cube Conundrum](notes/2.md) | 4:04   | 2:29   | 6:33  | Had this one in the bag!  |
