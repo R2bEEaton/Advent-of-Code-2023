@@ -30,14 +30,20 @@ def aocd_data_in(split=True, numbers=False, n_type=int):
         data = out
 
     print("| %s Data loaded.  |\n|====================|" % data_ver)
-    return data
+    return data, submit if data_ver == "Real" else dummy_submit
 
 
 def submit(ans):
     import aocd
     with open("helpers/sess") as f:
         sess = f.readline()
-    aocd.submit(answer=ans, session=sess)
+    dy = aocd.get_day_and_year()
+    aocd.submit(answer=ans, session=sess, day=dy[0], year=dy[1])
+
+
+def dummy_submit(a):
+    print(a)
+    print("Answer printed, not submitted.")
 
 
 def get_numbers(a, t):

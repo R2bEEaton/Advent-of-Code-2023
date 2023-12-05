@@ -1,6 +1,6 @@
-from helpers.datagetter import aocd_data_in, submit
+from helpers.datagetter import aocd_data_in
 
-din = aocd_data_in(split=True, numbers=False)
+din, submit = aocd_data_in(split=True, numbers=False)
 ans = 0
 
 for i in range(len(din)):

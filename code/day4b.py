@@ -1,6 +1,6 @@
-from helpers.datagetter import aocd_data_in, submit
+from helpers.datagetter import aocd_data_in
 
-din = aocd_data_in(split=True, numbers=True)
+din, submit = aocd_data_in(split=True, numbers=True)
 copies = [1 for _ in range(len(din))]
 
 for i in range(len(din)):

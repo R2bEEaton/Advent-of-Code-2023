@@ -1,6 +1,6 @@
-from helpers.datagetter import aocd_data_in, submit
+from helpers.datagetter import aocd_data_in
 
-din = aocd_data_in(split=True, numbers=False)
+din, submit = aocd_data_in(split=True, numbers=False)
 
 digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "|", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
 sum = 0
