@@ -3,7 +3,7 @@ import re
 from collections import defaultdict
 
 
-def data_in(split=True, numbers=False, n_type=int):
+def aocd_data_in(split=True, numbers=False, n_type=int):
     print("| CTRL Ex  |  SHFT R |")
     key = keyboard.read_key()
     data_ver = "Real"
@@ -15,7 +15,8 @@ def data_in(split=True, numbers=False, n_type=int):
         import aocd
         with open("helpers/sess") as f:
             sess = f.readline()
-        data = aocd.get_data(session=sess)
+        dy = aocd.get_day_and_year()
+        data = aocd.get_data(session=sess, day=dy[0], year=dy[1])
         with open("aoc.txt", "w+") as f:
             f.write(data)
 

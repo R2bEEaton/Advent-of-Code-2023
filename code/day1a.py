@@ -1,6 +1,6 @@
-from helpers.datagetter import data_in, submit
+from helpers.datagetter import aocd_data_in, submit
 
-din = data_in(split=True, numbers=True)
+din = aocd_data_in(split=True, numbers=True)
 
 sum = 0
 for line in din:

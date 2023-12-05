@@ -1,7 +1,7 @@
-from helpers.datagetter import data_in, submit
+from helpers.datagetter import aocd_data_in, submit
 from collections import defaultdict
 
-din = data_in(split=True, numbers=False)
+din = aocd_data_in(split=True, numbers=False)
 ans = 0
 
 gears = defaultdict(list)
