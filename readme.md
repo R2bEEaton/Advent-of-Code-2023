@@ -14,9 +14,10 @@ I'm going for speed. This repository is not an example of good code. It won't be
 
 ## Times and Tiny Comments
 
-| Title                               | Part 1 | Part 2 | Total | Comment                      |
-|-------------------------------------|--------|--------|-------|------------------------------|
-| [Day 1: Trebuchet?!](notes/1.md)    | 5:04   | 13:27  | 18:31 | Trebuchould have known...    |
-| [Day 2: Cube Conundrum](notes/2.md) | 4:04   | 2:29   | 6:33  | Had this one in the bag!     |
-| [Day 3: Gear Ratios](notes/3.md)    | 18:58  | 4:11   | 23:09 | This one grinded my gears.   |
-| [Day 4: Scratchcards](notes/4.md)   | 8:17   | 11:20  | 19:37 | Oh the example is different? |
+| Title                                                | Part 1 | Part 2  | Total   | Comment                       |
+|------------------------------------------------------|--------|---------|---------|-------------------------------|
+| [Day 1: Trebuchet?!](notes/1.md)                     | 5:04   | 13:27   | 18:31   | Trebuchould have known...     |
+| [Day 2: Cube Conundrum](notes/2.md)                  | 4:04   | 2:29    | 6:33    | Had this one in the bag!      |
+| [Day 3: Gear Ratios](notes/3.md)                     | 18:58  | 4:11    | 23:09   | This one grinded my gears.    |
+| [Day 4: Scratchcards](notes/4.md)                    | 8:17   | 11:20   | 19:37   | Oh the example is different?  |
+| [Day 5: If You Give A Seed A Fertilizer](notes/5.md) | 22:32  | 1:29:52 | 1:52:24 | Should have seed this coming. |
