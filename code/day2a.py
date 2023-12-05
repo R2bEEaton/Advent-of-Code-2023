@@ -1,6 +1,6 @@
 from helpers.datagetter import aocd_data_in
 
-din, submit = aocd_data_in(split=True, numbers=False)
+din, aocd_submit = aocd_data_in(split=True, numbers=False)
 l = {
     "red": 12,
     "green": 13,
@@ -18,4 +18,4 @@ for game in din:
     if good:
         ans += id
 
-submit(ans)
+aocd_submit(ans)

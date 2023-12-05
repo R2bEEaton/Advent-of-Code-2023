@@ -1,6 +1,6 @@
 from helpers.datagetter import aocd_data_in
 
-din, submit = aocd_data_in(split=True, numbers=False)
+din, aocd_submit = aocd_data_in(split=True, numbers=False)
 
 ans = 0
 for game in din:
@@ -16,4 +16,4 @@ for game in din:
                 l[shown.split(" ")[1]] = int(shown.split(" ")[0])
     ans += l["red"] * l["green"] * l["blue"]
 
-submit(ans)
+aocd_submit(ans)

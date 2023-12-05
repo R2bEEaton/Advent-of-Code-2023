@@ -1,6 +1,6 @@
 from helpers.datagetter import aocd_data_in
 
-din, submit = aocd_data_in(split=True, numbers=False)
+din, aocd_submit = aocd_data_in(split=True, numbers=False)
 
 digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "|", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
 sum = 0
@@ -22,4 +22,4 @@ for line in din:
     last_dig = digits.index(last_dig) % 10
     sum += int(str("%s%s" % (first_dig, last_dig)))
 
-submit(sum)
+aocd_submit(sum)

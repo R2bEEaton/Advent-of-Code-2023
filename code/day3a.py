@@ -1,6 +1,6 @@
 from helpers.datagetter import aocd_data_in
 
-din, submit = aocd_data_in(split=True, numbers=False)
+din, aocd_submit = aocd_data_in(split=True, numbers=False)
 ans = 0
 
 for i in range(len(din)):
@@ -27,4 +27,4 @@ for i in range(len(din)):
                                 None
             num = ""
 
-submit(ans)
+aocd_submit(ans)

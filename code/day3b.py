@@ -1,7 +1,7 @@
 from helpers.datagetter import aocd_data_in
 from collections import defaultdict
 
-din, submit = aocd_data_in(split=True, numbers=False)
+din, aocd_submit = aocd_data_in(split=True, numbers=False)
 ans = 0
 
 gears = defaultdict(list)
@@ -35,4 +35,4 @@ for items in gears.values():
     if len(items) == 2:
         ans += items[0] * items[1]
 
-submit(ans)
+aocd_submit(ans)

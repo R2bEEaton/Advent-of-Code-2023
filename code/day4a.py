@@ -1,6 +1,6 @@
 from helpers.datagetter import aocd_data_in
 
-din, submit = aocd_data_in(split=True, numbers=True)
+din, aocd_submit = aocd_data_in(split=True, numbers=True)
 ans = 0
 
 for card in din:
@@ -15,4 +15,4 @@ for card in din:
     if w > 0:
         ans += 2 ** (w - 1)
 
-submit(ans)
+aocd_submit(ans)
