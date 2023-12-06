@@ -22,10 +22,15 @@ for file in os.listdir("../code"):
             try:
                 midnight = datetime.combine(datetime.today(), time.min).timestamp()
                 parta = str(timedelta(seconds=player["completion_day_level"][fname]["1"]["get_star_ts"] - midnight))
-                if parta.startswith("0:"):
-                    parta = parta[2:]
-                delta = timedelta(seconds=player["completion_day_level"][fname]["2"]["get_star_ts"] - player["completion_day_level"][fname]["1"]["get_star_ts"])
-                partb = timedelta(seconds=player["completion_day_level"][fname]["2"]["get_star_ts"] - midnight)
+                while parta[0] in ["0", ":"]:
+                    parta = parta[1:]
+                print(parta)
+                delta = str(timedelta(seconds=player["completion_day_level"][fname]["2"]["get_star_ts"] - player["completion_day_level"][fname]["1"]["get_star_ts"]))
+                while delta[0] in ["0", ":"]:
+                    delta = delta[1:]
+                partb = str(timedelta(seconds=player["completion_day_level"][fname]["2"]["get_star_ts"] - midnight))
+                while partb[0] in ["0", ":"]:
+                    partb = partb[1:]
                 break
             except:
                 None

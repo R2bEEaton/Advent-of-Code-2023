@@ -21,3 +21,4 @@ I'm going for speed. This repository is not an example of good code. It won't be
 | [Day 3: Gear Ratios](notes/3.md)                     | 18:58  | 4:11    | 23:09   | This one grinded my gears.    |
 | [Day 4: Scratchcards](notes/4.md)                    | 8:17   | 11:20   | 19:37   | Oh the example is different?  |
 | [Day 5: If You Give A Seed A Fertilizer](notes/5.md) | 22:32  | 1:29:52 | 1:52:24 | Should have seed this coming. |
+| [Day 6: Wait For It](notes/6.md)                     | 5:05   | 3:41    | 8:46    | Didn't have to wait for long! |
