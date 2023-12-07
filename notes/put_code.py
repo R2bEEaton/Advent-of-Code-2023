@@ -46,14 +46,12 @@ brief note
 ## Part 1
 brief notes
 ```python
-%s
-```
+%s```
 
 ## Part 2
 brief notes
 ```python
-%s
-```""" % (fname, parta, delta, partb, open("../code/day%sa.py" % fname).read(), open("../code/day%sb.py" % fname).read()))
+%s```""" % (fname, parta, delta, partb, open("../code/day%sa.py" % fname).read(), open("../code/day%sb.py" % fname).read()))
 
 # Replace contents of all existing files
 """for file in os.listdir():

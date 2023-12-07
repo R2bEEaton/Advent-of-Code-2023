@@ -22,3 +22,4 @@ I'm going for speed. This repository is not an example of good code. It won't be
 | [Day 4: Scratchcards](notes/4.md)                    | 8:17   | 11:20   | 19:37   | Oh the example is different?  |
 | [Day 5: If You Give A Seed A Fertilizer](notes/5.md) | 22:32  | 1:29:52 | 1:52:24 | Should have seed this coming. |
 | [Day 6: Wait For It](notes/6.md)                     | 5:05   | 3:41    | 8:46    | Didn't have to wait for long! |
+| [Day 7: Camel Cards](notes/7.md)                     | 15:44  | 17:25   | 33:09   | Poker?? I hardly know her!    |
