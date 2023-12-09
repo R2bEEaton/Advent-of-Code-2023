@@ -24,3 +24,4 @@ I'm going for speed. This repository is not an example of good code. It won't be
 | [Day 6: Wait For It](notes/6.md)                     | 5:05   | 3:41    | 8:46    | Didn't have to wait for long! |
 | [Day 7: Camel Cards](notes/7.md)                     | 15:44  | 17:25   | 33:09   | Poker?? I hardly know her!    |
 | [Day 8: Haunted Wasteland](notes/8.md)               | 5:35   | 12:35   | 18:10   | Should have node.             |
+| [Day 9: Mirage Maintenance](notes/9.md)              | 7:58   | 2:37    | 10:35   | R.Y.A.N. Yields Another Name  |
