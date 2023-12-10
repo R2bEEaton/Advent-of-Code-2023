@@ -25,3 +25,4 @@ I'm going for speed. This repository is not an example of good code. It won't be
 | [Day 7: Camel Cards](notes/7.md)                     | 15:44  | 17:25   | 33:09   | Poker?? I hardly know her!    |
 | [Day 8: Haunted Wasteland](notes/8.md)               | 5:35   | 12:35   | 18:10   | Should have node.             |
 | [Day 9: Mirage Maintenance](notes/9.md)              | 7:58   | 2:37    | 10:35   | R.Y.A.N. Yields Another Name  |
+| [Day 10: Pipe Maze](notes/10.md)                     | 33:30  | 1:28:15 | 2:01:45 | Literal edge-cases...         |

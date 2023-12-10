@@ -81,4 +81,4 @@ class Matrix:
                 if (not diag and abs(i + j) == 1) or (diag and not (i == 0 and j == 0)):
                     got = self.get([pos[0] + i, pos[1] + j])
                     if got is not None:
-                        yield got
+                        yield got, [pos[0] + i, pos[1] + j]
