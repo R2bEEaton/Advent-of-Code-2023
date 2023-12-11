@@ -63,11 +63,7 @@ for i in range(len(din)):
                 ans += 1
         else:
             pipe = matrix.get([i, j])
-            if pipe == "|":
-                count += 1
-            elif pipe == "7" and last == "L":
-                count += 1
-            elif pipe == "J" and last == "F":
+            if pipe in ["|", "L", "J"]:
                 count += 1
             if pipe != "-":
                 last = pipe
