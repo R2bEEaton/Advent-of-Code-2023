@@ -29,3 +29,4 @@ I'm going for speed. This repository is not an example of good code. It won't be
 | [Day 11: Cosmic Expansion](notes/11.md)              | 12:29  | 5:26     | 17:55    | More like *comic* expansion!       |
 | [Day 12: Hot Springs](notes/12.md)                   | 24:52  | 23:30:37 | 23:55:29 | No springs attached.               |
 | [Day 13: Point of Incidence](notes/13.md)            | 41:20  | 42:51    | 1:24:11  | Lessons learned; What's the point? |
+| [Day 14: Parabolic Reflector Dish](notes/14.md)      | 6:58   | 15:14    | 22:12    | The power of rock and roll!        |
