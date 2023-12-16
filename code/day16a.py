@@ -6,8 +6,6 @@ ans = 0
 for i in range(len(din)):
     din[i] = [c for c in din[i]]
 
-print(din)
-
 
 def in_range(i, j):
     if 0 <= i < len(din) and 0 <= j < len(din[0]):

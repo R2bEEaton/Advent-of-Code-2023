@@ -1,6 +1,6 @@
 from helpers.datagetter import aocd_data_in
 import tqdm
-import time
+import functools
 
 din, aocd_submit = aocd_data_in(split=True, numbers=False)
 height = len(din)
@@ -16,6 +16,7 @@ def in_range(i, j):
     return False
 
 
+@functools.cache
 def move(bm):
     out = []
     d = bm[0]
@@ -68,6 +69,7 @@ def start_at(direction, x, y):
             beams.append(beam)
 
     return len(energy)
+
 
 m = []
 for i in tqdm.tqdm(range(len(din))):

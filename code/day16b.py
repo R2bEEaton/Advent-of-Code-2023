@@ -56,7 +56,6 @@ def start_at(direction, x, y):
     beams = [(direction, x, y)]
     already = []
 
-    now = time.time()
     while len(beams):
         new_beams = []
         for b in beams:
@@ -67,7 +66,6 @@ def start_at(direction, x, y):
             for beam in bb:
                 new_beams.append(beam)
         beams = new_beams.copy()
-    print(time.time() - now)
 
     dict = {}
     for bm in already:
