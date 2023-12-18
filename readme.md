@@ -32,4 +32,4 @@ I'm going for speed. This repository is not an example of good code. It won't be
 | [Day 14: Parabolic Reflector Dish](notes/14.md)      | 6:58     | 15:14    | 22:12    | The power of rock and roll!         |
 | [Day 15: Lens Library](notes/15.md)                  | 3:06     | 12:35    | 15:41    | Stay focused.                       |
 | [Day 16: The Floor Will Be Lava](notes/16.md)        | 35:36    | 37:49    | 1:13:25  | The floor was not lava fast enough! |
-| [Day 17: Clumsy Crucible](notes/17.md)               | 12:46:19 | 1:32:51  | 14:19:10 |                                 |
+| [Day 17: Clumsy Crucible](notes/17.md)               | 12:46:19 | 1:32:51  | 14:19:10 |                                     |
