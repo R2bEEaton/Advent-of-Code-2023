@@ -28,9 +28,6 @@ for line in tqdm.tqdm(din):
 
     d = int(color[-2])
     n = int(color[1:-2], 16)
-
-    n = int(n)
-
     perimeter += n
 
     if d == 3:
