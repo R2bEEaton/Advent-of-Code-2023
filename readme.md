@@ -34,3 +34,4 @@ I'm going for speed. This repository is not an example of good code. It won't be
 | [Day 16: The Floor Will Be Lava](notes/16.md)        | 35:36    | 37:49    | 1:13:25  | The floor was not lava fast enough! |
 | [Day 17: Clumsy Crucible](notes/17.md)               | 12:46:19 | 1:32:51  | 14:19:10 | \| \|\| \|\| \|_                    |
 | [Day 18: Lavaduct Lagoon](notes/18.md)               | 19:34    | 1:40:04  | 1:59:38  | Tripped over my laces.              |
+| [Day 19: Aplenty](notes/19.md)                       | 18:47    | 52:00    | 1:10:47  | Home, home on the range.            |
