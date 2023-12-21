@@ -5,7 +5,7 @@ din, aocd_submit = aocd_data_in(split=True, numbers=False)
 ans = 0
 
 garden = Matrix([len(din), len(din[0])], 0)
-start = []
+start = ()
 
 for i in range(len(din)):
     for j in range(len(din[0])):
@@ -33,7 +33,5 @@ while queue:
     for val, pos in garden.neighbors(list(curr)):
         if val == 0:
             queue.append(tuple([pos[0], pos[1], moved + 1]))
-
-print(len(positions))
 
 aocd_submit(len(positions) + 1)
