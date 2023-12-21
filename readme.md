@@ -36,3 +36,4 @@ I'm going for speed. This repository is not an example of good code. It won't be
 | [Day 18: Lavaduct Lagoon](notes/18.md)               | 19:34    | 1:40:04  | 1:59:38  | Tripped over my laces.              |
 | [Day 19: Aplenty](notes/19.md)                       | 18:47    | 52:00    | 1:10:47  | Home, home on the range.            |
 | [Day 20: Pulse Propagation](notes/20.md)             | 57:21    | 17:22    | 1:14:43  | Can't find his pulse!               |
+| [Day 21: Step Counter](notes/21.md)                  | 11:11    | ???      | ???      | Stuck at step 2...                  |
