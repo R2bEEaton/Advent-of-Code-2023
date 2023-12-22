@@ -31,7 +31,6 @@ for i in range(len(din)):
     brick = din[i]
     brick_ends = [eval("(%s)" % x) for x in brick.split("~")]
     brick_ends.sort(key=lambda x: [x[2], x[0], x[1]])
-    print(brick_ends)
     for b in get_brick(brick_ends):
         world[b] = i + 1
     bricks.append(brick_ends)
@@ -75,7 +74,6 @@ for brick in bricks:
     if brick[0][0] == brick[1][0] and brick[0][1] == brick[1][1]:
         # Vertical brick
         curr = world[brick[0]]
-        print(chr(64 + curr), "verticlal brick", brick)
         below = world[move_down(brick[0])]
         above = world[move_up(brick[1])]
         if below != 0:
@@ -95,10 +93,6 @@ for brick in bricks:
     supporters[chr(64 + curr)] = supports
     supporteds[chr(64 + curr)] = supported_by
 
-print(supporters)
-print(supporteds)
-
-
 for brick, supports in supporters.items():
     good = True
     for s in supports:
@@ -106,6 +100,5 @@ for brick, supports in supporters.items():
             good = False
     if good:
         ans += 1
-
 
 aocd_submit(ans)
