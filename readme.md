@@ -37,3 +37,4 @@ I'm going for speed. This repository is not an example of good code. It won't be
 | [Day 19: Aplenty](notes/19.md)                       | 18:47    | 52:00    | 1:10:47  | Home, home on the range.            |
 | [Day 20: Pulse Propagation](notes/20.md)             | 57:21    | 17:22    | 1:14:43  | Can't find his pulse!               |
 | [Day 21: Step Counter](notes/21.md)                  | 11:11    | ???      | ???      | Stuck at step 2...                  |
+| [Day 22: Sand Slabs](notes/22.md)                    | 52:14    | 5:53     | 58:07    | It's all falling into place.        |
