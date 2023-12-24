@@ -14,6 +14,8 @@ I'm going for speed. This repository is not an example of good code. It won't be
 
 ## Stats n' Puns
 
+This is pretty much a table of contents for my solutions and notes for each day.
+
 | Title                                                | Part 1   | Part 2   | Total    | Comment                             |
 |------------------------------------------------------|----------|----------|----------|-------------------------------------|
 | [Day 1: Trebuchet?!](notes/1.md)                     | 5:04     | 13:27    | 18:31    | Trebuchould have known...           |
