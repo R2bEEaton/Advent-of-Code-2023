@@ -12,7 +12,7 @@ Solutions will be slightly refactored for readability before submission. In othe
 
 I'm going for speed. This repository is not an example of good code. It won't be pretty.
 
-## Times and Tiny Comments
+## Stats n' Puns
 
 | Title                                                | Part 1   | Part 2   | Total    | Comment                             |
 |------------------------------------------------------|----------|----------|----------|-------------------------------------|
