@@ -39,3 +39,6 @@ I'm going for speed. This repository is not an example of good code. It won't be
 | [Day 21: Step Counter](notes/21.md)                  | 11:11    | 12/24    | 12/24    | Stuck at step 2...                  |
 | [Day 22: Sand Slabs](notes/22.md)                    | 52:14    | 5:53     | 58:07    | It's all falling into place.        |
 | [Day 23: A Long Walk](notes/23.md)                   | 25:56    | 2:11:58  | 2:37:54  | Dumb Forest Stroll!                 |
+| [Day 24: Never Tell Me The Odds](notes/24.md)        | 19:59    | 1:27:36  | 1:47:35  | Linear algebruh...                  |
+
+> Referenced other solutions for: 12, 21, 24
